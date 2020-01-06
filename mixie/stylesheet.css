@@ -1,11 +1,6 @@
-h1{
+h1, p, h2, h3, h4, h5, h6{
   font-family: 'Nunito', sans-serif;
   color: rgb(232, 231, 227)
-}
-
-p, h2, h3, h4, h5, h6 {
- font-family: 'Lucide Console', Monospace
- font-size: 34px;
 }
 
 #ol {
@@ -16,7 +11,7 @@ p, h2, h3, h4, h5, h6 {
 } 
 
 .button {
-  background-color: #debea4; 
+  background-color: #e55934; 
   border: none;
   color: white;
   padding: 15px 32px;
@@ -29,7 +24,7 @@ p, h2, h3, h4, h5, h6 {
  
 }
 .button:active {
-  background-color: #9e8773;
+  background-color: #b7482a;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
