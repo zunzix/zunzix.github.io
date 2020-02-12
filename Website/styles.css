@@ -1,0 +1,233 @@
+	body {
+	margin: 0;
+	font-family: 'Biryani', sans-serif;
+}
+header {
+	display: block;
+	height: 80px;
+	color: white;
+}
+.name {
+	display: inline-block;
+	height: 80px;
+	margin-left: 3%;
+	color: #3473e6;
+}
+.name p {
+	font-size: 27px;
+	margin: 0;
+	line-height: 80px;
+	font-family: 'Biryani', sans-serif;
+	font-weight: 700;
+}
+header img {
+	float: right;
+	height: 80px;
+}
+header img:hover {
+	cursor:	pointer;
+}
+#content {
+	transition: .3s;
+	position: relative;
+	width: 100%;
+	height: 100vh;
+}
+#menu {
+	display: none;
+	position: absolute;
+	top: 0;
+	right: -300px;
+	float: right;
+	height: 100%;
+	width: 300px;
+	background-color: #100826;
+	transition: .3s;
+	color: white;
+}
+
+#menu ul {
+	list-style-type: none;
+	margin-top: 40px;
+}
+#menu li {
+	margin-top: 20px;
+}
+#menu ul a {
+	text-decoration: none;
+	color: white;
+}
+.phototext {
+	height: 600px;
+	width: 100%;
+	background-color: #6675ff;
+}
+.alldiv {
+    display:table;
+    padding:5px; 
+    width:100%;
+    margin:5px 0;	
+}
+.ustext {
+	vertical-align:middle;
+    display:table-cell;
+    text-align:center;
+	padding: 11%;
+    
+}
+.alldiv. piccontent{
+	vertical-align:middle;
+    display:table-cell;
+    padding-right:5px;
+    width:50px;vertical-align:middle;
+    display:table-cell;
+    padding-right:5px;
+    width:50px;
+}
+.piccontent img{
+	 width:100%;
+    height:50px; 
+    vertical-align:middle;
+}
+.alldiv ul li { 
+}
+.phototext ul li {
+	display: inline-block;
+	vertical-align: middle;
+}
+.phototextcontent {
+	margin: 0 10%;
+}
+.pictextcontent {
+	margin: 0 10%;
+	display: flex;
+}
+.photoul {
+	list-style-type: none;
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+    width: 56.5%;
+}
+.textul {
+	font-family: 'Montserrat', sans-serif;
+	list-style-type: none;
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	color: white;
+}
+#pic {
+	height: 100%;
+	
+}
+.textul2 {
+	display: flex;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: 400px;
+}
+.textli2 {
+	align-items: center;
+}
+.textul2 li {
+	flex: 50%;
+}
+.picli {
+	text-align: right;
+	flex: 50%;
+}
+.text2 {
+	margin-left: 10%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.textintext2 {
+	text-align: center;
+}
+.text h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+	font-weight: 700;
+}
+.text p {
+	font-size: 20px;
+	font-weight: 500;
+}
+.photoul li {
+	height: 600px;
+	width: 600px;
+}
+.photoul li img {
+	height: 600px;
+	width: 600px;
+}
+.photoul {
+	text-align: right;
+}
+.indextable ul {
+	list-style-type: none;
+	display: inline-block;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+.indextable ul li {
+	display: inline-block;
+	width: 32%;
+	padding: 0;
+	vertical-align: text-top;
+}
+.indextable ul li p, .indextable ul li h1 {
+	padding: 0 30px;  
+}
+.indextable ul li p {
+	color: #777;
+}
+.indextable ul li img {
+	height: 170px;
+}
+.indextable {
+	margin-left: 10%;
+	margin-right: 10%;
+	text-align: center;
+}
+.indextablespacing {
+	margin-bottom: 80px;
+}
+footer ul {
+	list-style-type: none;
+	display: inline-block;
+	margin: 0;
+	height: 80px;
+}
+footer {
+	height: 80px;
+	padding-top: 60px;
+	padding-right: 10%;
+	padding-left: 10%;
+	vertical-align: middle;
+	background: #f1f1f1;
+}
+footer ul li img {
+	height: 40px;
+	width: 40px;
+}
+footer ul li {
+	display: inline-block;
+	padding-right: 20px;
+}
+footer p {
+	display: inline-block;
+	float: right;
+	vertical-align: text-top;
+	margin: 10px 0 0 0;
+	color: #3473e6;
+}
+.indexbackground {
+	padding-top: 100px;
+}

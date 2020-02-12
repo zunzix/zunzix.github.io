@@ -1,0 +1,105 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Amigocar</title>
+	    <link id="styleslink" rel="stylesheet" href="styles.css">
+		<link href = "asd.png" rel="shortcut icon">
+      <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+	  <link rel="scortcut icon" href="https://i.imgur.com/JuRdafa.png" >
+	</head>
+	<body>
+   <div id="content">
+      <header id="header">
+         <div class="name">
+         <p>Amigocar</p>
+            </div>
+            <img src="menu2.png" class="menuicon" onclick="menuClick()">     
+               </header>
+
+            <div id="menu">
+               <ul>
+                  <a href="index.html">
+                     <li class="text">
+                        Home
+                           </li>
+                              </a>
+                                 <!--<a href=".html">
+                                    <li class="text">
+                                       Drives
+                                          </li>
+                                             </a>
+                                                <a href=".html">
+                                                   <li class="text">
+                                                      Cities
+                                                         </li>
+                                                            </a>-->
+                                                               <a href="ride.html">
+                                                                  <li class="text">
+                                                                      Ride
+                                                                        </li>
+                                                                            </a>
+                                                                              </ul>
+                                                                                 </div>
+	<div class="alldiv">	
+        <div class="piccontent">
+
+               <img src="https://p0.piqsels.com/preview/421/31/638/man-in-gray-sweater-leaning-on-van-window.jpg" id="pic">
+           </div>
+		 <div class="ustext">
+   		    <h1>About us</h1>
+   		    <p>We are team of youngsters from Estonia, who seek to solve the problem of intercounty travel. We find that carpooling is a great solution but it isn´t safe.</p>
+      </div>
+      </div>
+	  
+   <footer>
+      <ul>
+         <li>
+            <img src="footer1.svg">
+         </li>
+         <li>
+            <img src="footer2.svg">
+         </li>
+         <li>
+            <img src="footer3.svg">
+         </li>
+      </ul>
+      <p><strong>© Amigocar OÜ</strong></p>
+
+   </footer>
+
+
+
+</div>
+
+
+
+
+
+   <script type="text/javascript">
+
+      var active = 0;
+
+      function menuClick() {
+         if (active == 0) {
+            active++;
+            document.getElementById("menu").style.display = "block";
+            document.getElementById("menu").style.right = "-300px";
+            document.getElementById("content").style.right = "300px";
+            document.body.style.overflow = "hidden";
+         } else if (active == 1) {
+            active = 0;
+            document.getElementById("menu").style.display = "none";
+            document.getElementById("content").style.right = "0px";
+            document.body.style.overflow = "visible";
+         }
+      }
+
+
+
+   </script>
+      
+	</body>
+
+
+
+</html>

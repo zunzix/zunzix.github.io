@@ -1,0 +1,63 @@
+.Ridesdiv {
+	height: 200px;
+	width: 100%;
+	background-color: #6675ff;
+}
+.Ridesdiv ul li {
+	display: inline-block;
+	vertical-align: middle;
+}
+#amigoOption{
+    margin:1.2em;
+    padding:12%;
+}
+.option {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #6675ff;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 210px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+.option span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.option span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+.option:hover span {
+  padding-right: 25px;
+}
+
+.option:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+#find{
+	float:right;
+}
+.planningul li img {
+	height: 21em;
+	width: 29em;
+	top: -6px;
+	position: relative;
+}
+.planningul {
+	float: right;
+	top: -90px;
+	position: relative;
+}

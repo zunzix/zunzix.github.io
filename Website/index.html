@@ -1,0 +1,138 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Amigocar</title>
+	    <link id="styleslink" rel="stylesheet" href="styles.css">
+		<link href = "asd.png" rel="shortcut icon">
+		<link href="https://fonts.googleapis.com/css?family=Biryani|Karla|Montserrat&display=swap" rel="stylesheet">
+		<link rel="scortcut icon" href="https://i.imgur.com/JuRdafa.png" >
+	</head>
+	<body>
+   <div id="content">
+      <header id="header">
+         <div class="name">
+         <p>Amigocar</p>
+            </div>
+            <img src="menu2.png" class="menuicon" onclick="menuClick()">     
+               </header>
+
+            <div id="menu">
+               <ul>
+                  <a href="ride.html">
+                     <li class="text">
+                        Ride
+                           </li>
+                              </a>
+                                 <!--<a href=".html">
+                                    <li class="text">
+                                       Drives
+                                          </li>
+                                             </a>
+                                                <a href=".html">
+                                                   <li class="text">
+                                                      Cities
+                                                         </li>
+                                                            </a>-->
+                                                               <a href="us.html">
+                                                                  <li class="text">
+                                                                      About us
+                                                                        </li>
+                                                                            </a>
+                                                                              </ul>
+                                                                                 </div>
+      <div class="phototext">
+         <div class="phototextcontent">
+         <ul class="textul">
+               <li class="textli">
+                  <div class="text">
+                     <h1>We offer long car rides from city to city.</h1>
+                     <p>Download the Amigocar App.</p>
+                  </div>
+            </li>
+         </ul>
+         <ul class="photoul">
+            <li>
+               <img src="https://i.imgur.com/zLhpcxP.png" alt="Picture of a man in a car.">
+            </li>
+         </ul>
+      </div>
+
+      </div>
+	<div class="indexbackground">
+      <div class="indextable">
+         <ul>
+            <li>
+               <img src="table1.svg">
+               <h2>Save nature</h2>
+               <p>Save the planet by using less fuel.</p>
+            </li>
+            <li>
+               <img src="table2.svg">
+               <h2>Save money</h2>
+               <p>Amigocar is cheaper than any other taxi services.</p>
+            </li>
+            <li>
+               <img src="table3.svg">
+               <h2>Save time</h2>
+               <p>Amigocar is faster than using a bus and in some cases faster than a taxi.</p>
+            </li>
+
+         </ul>
+
+      </div>
+</div>
+      <div class="indextablespacing">
+      </div>
+
+   <footer>
+      <ul>
+         <li>
+            <img src="footer1.svg">
+         </li>
+         <li>
+            <img src="footer2.svg">
+         </li>
+         <li>
+            <img src="footer3.svg">
+         </li>
+      </ul>
+      <p><strong>© Amigocar OÜ</strong></p>
+
+   </footer>
+
+
+
+</div>
+
+
+
+
+
+   <script type="text/javascript">
+
+      var active = 0;
+
+      function menuClick() {
+         if (active == 0) {
+            active++;
+            document.getElementById("menu").style.display = "block";
+            document.getElementById("menu").style.right = "-300px";
+            document.getElementById("content").style.right = "300px";
+            document.body.style.overflow = "hidden";
+         } else if (active == 1) {
+            active = 0;
+            document.getElementById("menu").style.display = "none";
+            document.getElementById("content").style.right = "0px";
+            document.body.style.overflow = "visible";
+         }
+      }
+
+
+
+   </script>
+      
+	</body>
+
+
+
+</html>
