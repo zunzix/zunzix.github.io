@@ -1,0 +1,81 @@
+h1, p, h2, h3, h4, h5, h6{
+  font-family: 'Nunito', sans-serif;
+  color: white;
+}
+
+#ol {
+	font-size : 24;
+	text-align : center;
+	color:white;
+	font-family: 'Lucide Console', Monospace;
+} 
+
+.button {
+  background-color: #e55934; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 12px; 
+ 
+}
+.button:active {
+  background-color: #b7482a;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+#mainDiv{
+    display:block;
+}
+div{
+	border: 0.4em solid #59C9A5;
+	padding-bottom: 15px;
+	padding-top: 15px;
+	background-color: #465775;
+	
+}
+
+
+th, td {
+  padding: 5px;
+}
+th {
+  text-align: left;
+}
+#protopic{
+    overflow: auto;
+}
+#pic1{
+    display:flex;
+    float:left;
+    margin-left: 2em;
+    padding:2em;
+
+}
+.rText{
+    padding:3em;
+    font-size:19;
+}
+#pic2{
+    display: flex;
+    float: right;
+    margin-right: 2em;
+    padding:2em;
+}
+#plsright{
+    overflow: auto;
+}
+#textbox{
+    border: 0.4em solid #59C9A5;
+    margin-left:auto;
+    margin-right:auto;
+	background-color: #465775;
+}
+#cookie{
+    height:20em;
+        width:20em;
+}

@@ -1,0 +1,31 @@
+<html>
+
+<head>
+
+</head>
+
+<body>
+<pre>
+<img src="https://i.imgur.com/opcle5l.jpg"/>
+<a href="index.html">Click here to go back</a>
+</pre>
+
+<button id="icon" onclick="task();">Click here for cookies!</button>
+<p id="score">0</p>
+
+<script>
+    var score = 0;
+	var message = "Damn, you can really click!"
+    function task () {
+    score = score + 1;
+    document.getElementById('score').innerHTML = score;
+
+if (score > 500) {
+     document.getElementById('score').innerHTML = message; 
+}
+}
+</script>
+</body>
+
+
+</html>
