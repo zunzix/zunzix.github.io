@@ -6,6 +6,17 @@
      <link rel="stylesheet" href="stylesheet.css"/>
      <link rel="shortcut icon" type="image/gif" href="https://i.imgur.com/662gFNm.png"/> 
 
+     <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-167595940-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-167595940-1');
+</script>
+
+     
  </head>
  <body>
       
@@ -68,7 +79,7 @@ frameborder="0" allow="accelerometer; autoplay; encrypted-media;
  <pre>
  <hr>
  
- <pre>
+ </pre>
  <table>
  <tr>
  <th>
@@ -78,12 +89,19 @@ frameborder="0" allow="accelerometer; autoplay; encrypted-media;
 </tr>
 </table>
 	  <script>
-
-	  
 	  function myFunction(){
-	     alert("If it wasn't clear enough, this game AND website were made by Karl Michal."); 
+          alert("If it wasn't clear enough, this game AND website were made by Karl Michal."); 
+          gtag("event","Secret found");
+	  }
+
+    function myFunction1(){     
+          gtag("event","Subscribe");
+	  }
+
+    function myFunction2(){
+          gtag("event","First version");
 	  }
 	  
 	  </script>
-	  </body>
-	  </html>
+    </body>
+</html>
