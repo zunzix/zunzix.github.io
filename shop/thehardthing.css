@@ -1,0 +1,64 @@
+body{
+    background-color: cornsilk;
+}
+
+.iteem{
+    display:inline-grid;
+    padding: 0.8em;
+    border-style: solid;
+    border-color:aquamarine;
+    margin: 1em;
+    height: auto;
+    width: 12em;
+    font-family: 'Baloo Paaji 2', cursive;
+    text-align:center;
+
+}
+
+.caart{
+    font-family: 'Baloo Paaji 2', cursive;
+    font-size:32;
+}
+#cart{
+    font-family: 'Baloo Paaji 2', cursive;
+    font-size:22;
+}
+
+.piic{
+    height:3.5em;
+    width:3.5em;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#price {
+    position:fixed;
+}
+
+.deesc{
+    font-family: 'Muli', sans-serif;
+}
+
+.addbtn{
+    border-color:chartreuse;
+    background-color:floralwhite;
+    font-family: 'Baloo Paaji 2', cursive;
+    font-size:11;
+    width:5em;
+    height:2em;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:0.2em;
+    text-align:center;
+}
+
+.rembtn{
+    border-color:crimson;
+    background-color:floralwhite;
+    font-family: 'Baloo Paaji 2', cursive;
+    font-size:22;
+    width:9em;
+    height:2em;
+    margin-top:0.2em;
+    text-align:center;
+}
