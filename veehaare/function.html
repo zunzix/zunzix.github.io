@@ -195,6 +195,10 @@ canvas.emscripten { border: 0px none; background-color: black; }
           if (text) console.error('[post-exception status] ' + text);
         };
       };
+
+      var kuluvAeg = Module.cwrap('kuluvAeg', 'number', ['number', 'number']);
+      console.log(kuluvAeg(140, 4.2));
+      
     </script>
     <script async type="text/javascript" src="function.js"></script>
   </body>
